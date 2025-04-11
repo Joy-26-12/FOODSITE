@@ -1,0 +1,53 @@
+.navigation{
+    width:98vw;
+    border: 1px solid aqua;
+    background-color: aquamarine;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    margin-top: 80px;
+    text-align: center;
+}
+.food-item{
+    border: 1px solid red;
+    width: 220px;
+    padding: 20px;
+    height: 170px;
+}
+img{
+    width: 200px;
+    height: 120px;
+}
+.foodlist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 170px;
+}
+.footer{
+    border: 2px solid hotpink;
+    background-color: aqua;
+    margin-top: 20px;
+    height: 120px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    background-image: url(images/hotel\ poster\ titled\ joy\ hassan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{color: beige;}
